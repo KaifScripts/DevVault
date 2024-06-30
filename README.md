@@ -1,3 +1,5 @@
+TIC-TAC-TOE
+
 #Features
 - Classic Tic Tac Toe gameplay
 - Responsive design
@@ -8,3 +10,8 @@ Usage
 Open the index.html file in a web browser.
 Click on a cell to place your mark (X or O).
 Alternate turns between players until one wins or the game is a draw.
+
+
+APPDEV
+Open the index.html file in a web browser.
+JS is incomplete :( (still learning) 
