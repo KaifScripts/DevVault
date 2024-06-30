@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin:0;
+}
+
+header {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:30px;
+    background-color: #12372A;
+    color: white;
+    height:100px;
+    text-align: center;
+  }
+.container {
+    max-width: 800px;
+    height:1000px;
+    margin:auto auto;
+    text-align: center;
+    background-color:#FBFADA;
+}
+#ingredients-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.submit-btn{
+    border-radius:5px;
+    border:none;
+    background-color:#abd2a9;
+    height:30px;
+    font-size:15px;
+    cursor:pointer;
+    
+}
+
+#ingredients-list li {
+    margin-bottom: 10px;
+}
+
+#ingredients-list input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+#recipes-container {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.recipe-card {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.recipe-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.recipe-card h2 {
+    margin-top: 0;
+}
+
+.recipe-card p {
+    margin-bottom: 20px;
+}
+
+#filter-options {
+    margin-top: 20px;
+}
+
+#filter-options label {
+    margin-right: 10px;
+}
+
+#saved-recipes-container {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}

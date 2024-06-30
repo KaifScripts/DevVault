@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 style="margin:0;">RECIPE FINDER</h1>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 style="margin-top:0;
+                    height:35px;
+                    background-color: #ADBC9F;">SELECT INGREDIENTS</h2>
+                    <ul id="ingredients-list">
+                        <li>
+                            <input type="checkbox" id="ingredient-1" />
+                            <label for="ingredient-1">Tomato</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="ingredient-2" />
+                            <label for="ingredient-2">Onion</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="ingredient-3" />
+                            <label for="ingredient-3">Garlic</label>
+                        </li>
+                        <!-- Add more ingredients here -->
+                    </ul>
+                    <button class="submit-btn">Submit</button>
+                </div>
+                <div class="col-md-6">
+                    <h2 style="background-color: #ADBC9F;">Recipes</h2>
+                    <div id="recipes-container">
+                        <!-- Recipes will be displayed here -->
+                    </div>
+                    <div id="filter-options">
+                        <h3 style="background-color: #ADBC9F;
+                                    font-size:25px;">Filter Recipes</h3>
+                        <label for="cuisine">Cuisine:</label>
+                        <select id="cuisine">
+                            <option value="">All</option>
+                            <option value="Italian">Italian</option>
+                            <option value="Mexican">Mexican</option>
+                            <option value="Indian">Indian</option>
+                            <!-- Add more cuisines here -->
+                        </select>
+                        <label for="prep-time">Prep Time:</label>
+                        <select id="prep-time">
+                            <option value="">All</option>
+                            <option value="Under 30 minutes">Under 30 minutes</option>
+                            <option value="30-60 minutes">30-60 minutes</option>
+                            <option value="Over 60 minutes">Over 60 minutes</option>
+                        </select>
+                        <label for="dietary-restrictions">Dietary Restrictions:</label>
+                        <select id="dietary-restrictions">
+                            <option value="">All</option>
+                            <option value="Vegetarian">Vegetarian</option>
+                            <option value="Vegan">Vegan</option>
+                            <option value="Gluten-free">Gluten-free</option>
+                            <!-- Add more dietary restrictions here -->
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 style="background-color: #ADBC9F;">Saved Recipes</h2>
+                    <div id="saved-recipes-container">
+                        <!-- Saved recipes will be displayed here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
