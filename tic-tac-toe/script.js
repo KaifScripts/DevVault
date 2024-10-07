@@ -18,8 +18,6 @@ const winPatterns = [
   [6, 7, 8],
 ];
 
-
-console.log("ma ki chut");
 const resetGame = () => {
   turnO = true;
   count = 0;
